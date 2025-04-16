@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang=" HEADING
+<head>
+    <title>DOM-AI Verde Presentation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.8.0/reveal.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.8.0/reveal.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .reveal { font-family: Arial, sans-serif; }
+        .slide { padding: 20px; }
+        .mockup, .diagram { background: #f0f0f0; padding: 20px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1: Title -->
+            <section class="slide bg-green-100">
+                <h1 class="text-4xl font-bold mb-6">DOM-AI Verde</h1>
+                <h2 class="text-2xl mb-4">Innovación para la Dirección de Obras Municipales</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>Solución basada en Inteligencia Artificial Generativa</li>
+                    <li>Modernización en Valle Verde, Chile</li>
+                    <li>Alineada con LGUC, OGUC, Ley 21.718, Plan Regulador</li>
+                </ul>
+            </section>
+
+            <!-- Slide 2: Resumen Ejecutivo -->
+            <section class="slide bg-gray-100">
+                <h2 class="text-2xl font-bold mb-4">DOM-AI Verde: Impacto Transformador</h2>
+                <p class="text-lg mb-4">Inversión: $28M CLP</p>
+                <ul class="text-lg list-disc ml-8 mb-4">
+                    <li>Tramitación: 45 → 12-25 días</li>
+                    <li>Errores: 25% → 3%</li>
+                    <li>Satisfacción: 4.2/10 → 8.5/10</li>
+                    <li>Libera 70% tiempo funcionarios</li>
+                    <li>$3,500M CLP en inversiones; ~320 empleos</li>
+                </ul>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <rect x="50" y="100" width="80" height="50" fill="#4CAF50"/>
+                        <rect x="170" y="50" width="80" height="100" fill="#2196F3"/>
+                        <text x="90" y="130" fill="white">45 días</text>
+                        <text x="210" y="130" fill="white">12-25 días</text>
+                    </svg>
+                    <p>Tiempos de tramitación</p>
+                </div>
+            </section>
+
+            <!-- Slide 3: Contexto de Valle Verde -->
+            <section class="slide bg-blue-50">
+                <h2 class="text-2xl font-bold mb-4">Valle Verde: Una Comuna en Crecimiento</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>Población: 150,000; crecimiento 8% anual</li>
+                    <li>Proyectos: 15 edificios, 5 centros comerciales</li>
+                    <li>DOM: 5 funcionarios full-time, 2 part-time</li>
+                    <li>300 solicitudes mensuales</li>
+                    <li>Presupuesto: $50M CLP</li>
+                </ul>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <rect x="50" y="50" width="200" height="100" fill="#81C784"/>
+                        <circle cx="100" cy="100" r="20" fill="#4CAF50"/>
+                        <circle cx="200" cy="100" r="20" fill="#4CAF50"/>
+                        <text x="150" y="30" text-anchor="middle">Zonas de crecimiento</text>
+                    </svg>
+                    <p>Mapa de Valle Verde (GIS)</p>
+                </div>
+            </section>
+
+            <!-- Slide 4: Problemas Críticos -->
+            <section class="slide bg-red-50">
+                <h2 class="text-2xl font-bold mb-4">Desafíos Operativos y Ciudadanos</h2>
+                <ol class="text-lg list-decimal ml-8 mb-4">
+                    <li>Procesos manuales: 4h-3 días, 70% automatizable</li>
+                    <li>Plazos excesivos: 45 días vs. 15/30 días</li>
+                    <li>Falta de transparencia: 62% devoluciones</li>
+                </ol>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <circle cx="150" cy="75" r="60" fill="#FF5722"/>
+                        <path d="M150,75 L210,75 A60,60 0 0,1 150,135 Z" fill="#2196F3"/>
+                        <text x="150" y="60" text-anchor="middle">62% Incompleta</text>
+                        <text x="150" y="100" text-anchor="middle">25% Errores</text>
+                    </svg>
+                    <p>Causas de devoluciones</p>
+                </div>
+            </section>
+
+            <!-- Slide 5: Marco Normativo -->
+            <section class="slide bg-gray-100">
+                <h2 class="text-2xl font-bold mb-4">Cumplimiento Legal</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>LGUC: Planos, certificados, seguridad</li>
+                    <li>OGUC: Dimensiones, materiales, accesibilidad</li>
+                    <li>Ley 21.718: Plazos 15/30 días</li>
+                    <li>Plan Regulador: Zonificación, densidad, altura</li>
+                </ul>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <rect x="50" y="20" width="80" height="40" fill="#4CAF50"/>
+                        <rect x="50" y="70" width="80" height="40" fill="#2196F3"/>
+                        <rect x="50" y="120" width="80" height="40" fill="#FF5722"/>
+                        <path d="M130,40 L170,40 M130,90 L170,90 M130,140 L170,140" stroke="black" stroke-width="2"/>
+                        <rect x="170" y="20" width="80" height="140" fill="#81C784"/>
+                        <text x="90" y="45" fill="white">LGUC</text>
+                        <text x="90" y="95" fill="white">OGUC</text>
+                        <text x="90" y="145" fill="white">Ley 21.718</text>
+                        <text x="210" y="90" fill="white">Plan Regulador</text>
+                    </svg>
+                    <p>Flujo normativo</p>
+                </div>
+            </section>
+
+            <!-- Slide 6: DOM-AI Verde Solución -->
+            <section class="slide bg-green-100">
+                <h2 class="text-2xl font-bold mb-4">Plataforma Integral con IA-G</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>Verificación automática en tiempo real</li>
+                    <li>Análisis normativo en horas</li>
+                    <li>Portal ciudadano intuitivo</li>
+                    <li>Gestión optimizada</li>
+                </ul>
+                <div class="mockup">
+                    <svg width="300" height="150">
+                        <rect x="20" y="20" width="260" height="110" fill="#E0E0E0"/>
+                        <rect x="40" y="40" width="100" height="20" fill="#4CAF50"/>
+                        <rect x="160" y="40" width="100" height="20" fill="#2196F3"/>
+                        <text x="150" y="100" text-anchor="middle">Validación de documentos</text>
+                    </svg>
+                    <p>Portal ciudadano</p>
+                </div>
+            </section>
+
+            <!-- Slide 7: Arquitectura Tecnológica -->
+            <section class="slide bg-blue-50">
+                <h2 class="text-2xl font-bold mb-4">Tecnologías de Vanguardia</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>IA Multimodal: Grok 3 (PLN + visión)</li>
+                    <li>Visión computacional</li>
+                    <li>Integración GIS</li>
+                    <li>APIs: SII, Conservador, CAD</li>
+                    <li>Cloud escalable</li>
+                    <li>OCR para archivos históricos</li>
+                </ul>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <rect x="50" y="20" width="80" height="40" fill="#4CAF50"/>
+                        <rect x="50" y="70" width="80" height="40" fill="#2196F3"/>
+                        <rect x="50" y="120" width="80" height="40" fill="#FF5722"/>
+                        <rect x="170" y="20" width="80" height="110" fill="#81C784"/>
+                        <path d="M130,40 L170,40 M130,90 L170,90 M130,140 L170,140" stroke="black" stroke-width="2"/>
+                        <text x="90" y="45" fill="white">IA</text>
+                        <text x="90" y="95" fill="white">GIS</text>
+                        <text x="90" y="145" fill="white">Cloud</text>
+                        <text x="210" y="90" fill="white">APIs</text>
+                    </svg>
+                    <p>Arquitectura tecnológica</p>
+                </div>
+            </section>
+
+            <!-- Slide 8: Flujo de Trabajo -->
+            <section class="slide bg-gray-100">
+                <h2 class="text-2xl font-bold mb-4">Automatización Inteligente</h2>
+                <ol class="text-lg list-decimal ml-8">
+                    <li>Pre-verificación (T=0)</li>
+                    <li>Clasificación (T+1h)</li>
+                    <li>Análisis normativo (T+24h)</li>
+                    <li>Revisión humana (T+2-7d)</li>
+                    <li>Resolución (T+12-25d)</li>
+                </ol>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <circle cx="50" cy="75" r="20" fill="#4CAF50"/>
+                        <circle cx="100" cy="75" r="20" fill="#2196F3"/>
+                        <circle cx="150" cy="75" r="20" fill="#FF5722"/>
+                        <circle cx="200" cy="75" r="20" fill="#81C784"/>
+                        <circle cx="250" cy="75" r="20" fill="#FFC107"/>
+                        <path d="M70,75 L80,75 M120,75 L130,75 M170,75 L180,75 M220,75 L230,75" stroke="black" stroke-width="2"/>
+                        <text x="50" y="100" text-anchor="middle">Pre-verif.</text>
+                        <text x="100" y="100" text-anchor="middle">Clasif.</text>
+                        <text x="150" y="100" text-anchor="middle">Análisis</text>
+                        <text x="200" y="100" text-anchor="middle">Revisión</text>
+                        <text x="250" y="100" text-anchor="middle">Resolución</text>
+                    </svg>
+                    <p>Flujo de trabajo</p>
+                </div>
+            </section>
+
+            <!-- Slide 9: Experiencia Ciudadana -->
+            <section class="slide bg-green-100">
+                <h2 class="text-2xl font-bold mb-4">Portal y Soporte 24/7</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>Portal intuitivo</li>
+                    <li>Asistente virtual (85% consultas)</li>
+                    <li>Transparencia: dashboard público</li>
+                </ul>
+                <div class="mockup">
+                    <svg width="300" height="150">
+                        <rect x="20" y="20" width="260" height="110" fill="#E0E0E0"/>
+                        <rect x="40" y="40" width="220" height="20" fill="#4CAF50"/>
+                        <rect x="40" y="70" width="100" height="40" fill="#2196F3"/>
+                        <text x="150" y="100" text-anchor="middle">Dashboard y chatbot</text>
+                    </svg>
+                    <p>Interfaz del portal</p>
+                </div>
+            </section>
+
+            <!-- Slide 10: Beneficios Esperados -->
+            <section class="slide bg-blue-50">
+                <h2 class="text-2xl font-bold mb-4">Impacto Cuantificable</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>Tiempos: 12-25 días</li>
+                    <li>Errores: 3%</li>
+                    <li>Satisfacción: 8.5/10</li>
+                    <li>Eficiencia: 70% menos tiempo</li>
+                    <li>Económico: $3,500M, 320 empleos</li>
+                    <li>Sostenibilidad: 85% menos papel</li>
+                </ul>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <rect x="50" y="100" width="50" height="50" fill="#4CAF50"/>
+                        <rect x="110" y="80" width="50" height="70" fill="#2196F3"/>
+                        <rect x="170" y="60" width="50" height="90" fill="#FF5722"/>
+                        <rect x="230" y="40" width="50" height="110" fill="#81C784"/>
+                        <text x="75" y="130" fill="white">Tiempo</text>
+                        <text x="135" y="130" fill="white">Errores</text>
+                        <text x="195" y="130" fill="white">Satisf.</text>
+                        <text x="255" y="130" fill="white">Inversión</text>
+                    </svg>
+                    <p>Beneficios clave</p>
+                </div>
+            </section>
+
+            <!-- Slide 11: Plan de Implementación -->
+            <section class="slide bg-gray-100">
+                <h2 class="text-2xl font-bold mb-4">Fases y Cronograma</h2>
+                <ol class="text-lg list-decimal ml-8">
+                    <li>Desarrollo Base (M1-3): $10M</li>
+                    <li>Pilotaje (M4-6): $8M</li>
+                    <li>Escalamiento (M7-9): $6M</li>
+                    <li>Optimización (M10-12): $4M</li>
+                </ol>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <rect x="20" y="100" width="60" height="20" fill="#4CAF50"/>
+                        <rect x="90" y="100" width="60" height="20" fill="#2196F3"/>
+                        <rect x="160" y="100" width="60" height="20" fill="#FF5722"/>
+                        <rect x="230" y="100" width="60" height="20" fill="#81C784"/>
+                        <text x="50" y="90" text-anchor="middle">M1-3</text>
+                        <text x="120" y="90" text-anchor="middle">M4-6</text>
+                        <text x="190" y="90" text-anchor="middle">M7-9</text>
+                        <text x="260" y="90" text-anchor="middle">M10-12</text>
+                    </svg>
+                    <p>Línea de tiempo</p>
+                </div>
+            </section>
+
+            <!-- Slide 12: Presupuesto y ROI -->
+            <section class="slide bg-green-100">
+                <h2 class="text-2xl font-bold mb-4">Inversión Estratégica</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>Total: $28M CLP</li>
+                    <li>Desarrollo: $10M</li>
+                    <li>Pilotaje: $8M</li>
+                    <li>Escalamiento: $6M</li>
+                    <li>Optimización: $4M</li>
+                    <li>ROI: 303% en año 1</li>
+                </ul>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <path d="M150,75 L210,75 A60,60 0 0,1 150,135 Z" fill="#4CAF50"/>
+                        <path d="M150,75 L90,75 A60,60 0 0,1 150,15 Z" fill="#2196F3"/>
+                        <path d="M150,75 L90,75 A60,60 0 0,0 150,135 Z" fill="#FF5722"/>
+                        <path d="M150,75 L210,75 A60,60 0 0,0 150,15 Z" fill="#81C784"/>
+                        <text x="150" y="60" text-anchor="middle">Desarrollo</text>
+                        <text x="150" y="100" text-anchor="middle">Pilotaje</text>
+                        <text x="150" y="140" text-anchor="middle">Escalamiento</text>
+                    </svg>
+                    <p>Distribución presupuestaria</p>
+                </div>
+            </section>
+
+            <!-- Slide 13: Indicadores de Éxito -->
+            <section class="slide bg-blue-50">
+                <h2 class="text-2xl font-bold mb-4">Metas Medibles</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>Tiempos: ≤12/25 días</li>
+                    <li>Errores: ≤3%</li>
+                    <li>Satisfacción: ≥8.5/10</li>
+                    <li>Eficiencia: 70% reducción</li>
+                    <li>Adopción: 90% digital</li>
+                    <li>Económico: $3,500M</li>
+                </ul>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <polygon points="150,20 250,75 200,135 100,135 50,75" fill="#4CAF50" fill-opacity="0.5"/>
+                        <text x="150" y="30" text-anchor="middle">Tiempo</text>
+                        <text x="240" y="75" text-anchor="middle">Errores</text>
+                        <text x="200" y="125" text-anchor="middle">Satisf.</text>
+                        <text x="100" y="125" text-anchor="middle">Eficiencia</text>
+                        <text x="60" y="75" text-anchor="middle">Adopción</text>
+                    </svg>
+                    <p>Indicadores de éxito</p>
+                </div>
+            </section>
+
+            <!-- Slide 14: Gestión de Riesgos -->
+            <section class="slide bg-red-50">
+                <h2 class="text-2xl font-bold mb-4">Riesgos y Mitigaciones</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>Tecnológicos: Validación humana, APIs flexibles</li>
+                    <li>Organizacionales: Gestión del cambio, escalamiento</li>
+                    <li>Legales: Arquitectura modular, cifrado</li>
+                </ul>
+                <div class="diagram">
+                    <svg width="300" height="150">
+                        <rect x="50" y="20" width="100" height="60" fill="#FF5722" fill-opacity="0.5"/>
+                        <rect x="170" y="20" width="100" height="60" fill="#4CAF50" fill-opacity="0.5"/>
+                        <rect x="50" y="90" width="100" height="60" fill="#2196F3" fill-opacity="0.5"/>
+                        <rect x="170" y="90" width="100" height="60" fill="#81C784" fill-opacity="0.5"/>
+                        <text x="100" y="50" text-anchor="middle">Alto impacto</text>
+                        <text x="220" y="50" text-anchor="middle">Bajo impacto</text>
+                        <text x="100" y="120" text-anchor="middle">Alta prob.</text>
+                        <text x="220" y="120" text-anchor="middle">Baja prob.</text>
+                    </svg>
+                    <p>Matriz de riesgos</p>
+                </div>
+            </section>
+
+            <!-- Slide 15: Conclusión -->
+            <section class="slide bg-green-100">
+                <h2 class="text-2xl font-bold mb-4">DOM-AI Verde: Un Futuro Innovador</h2>
+                <ul class="text-lg list-disc ml-8">
+                    <li>Cumple normativas</li>
+                    <li>Motor de desarrollo urbano</li>
+                    <li>Desbloquea $3,500M CLP</li>
+                    <li>Líder en GovTech</li>
+                </ul>
+                <div class="mockup">
+                    <svg width="300" height="150">
+                        <rect x="20" y="20" width="260" height="110" fill="#E0E0E0"/>
+                        <rect x="40" y="40" width="100" height="70" fill="#4CAF50"/>
+                        <rect x="160" y="40" width="100" height="70" fill="#2196F3"/>
+                        <text x="150" y="100" text-anchor="middle">Valle Verde moderna</text>
+                    </svg>
+                    <p>Visión con DOM-AI Verde</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <cono
+    <script>
+        Reveal.initialize();
+    </script>
+</body>
+</html>
